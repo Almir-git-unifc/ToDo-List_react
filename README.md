@@ -1,8 +1,8 @@
 # simpleToDoList-react_js
 
-Control of tasks To Do, with the functionality of a simple CRUD, like this, C - Create tasks (ADD), R - retrieve tasks from localStorage,  U - Update tasks in localStorage, D - Delete tasks from the list,  and check or uncheck the  completed task status (Checked)
+This is a Front End To Do List. It's Control of tasks To Do, with the functionality simple, like this, C - Create tasks (ADD), D - Delete tasks from the list,  and check or uncheck the  completed task status (Checked)
 
----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 
 
 # Demo
