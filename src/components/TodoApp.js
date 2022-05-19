@@ -41,7 +41,10 @@ function TodoApp() {
                 <ul>
                     {tasklist.map((t) => (
 
-                        <li className="listitem">{t.value}</li>
+                        <li className="listitem">
+                            {t.value}
+                            <button className="delete">Delete</button>
+                        </li>
                     ))}
                 </ul>
             ) : null}
