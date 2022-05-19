@@ -19,9 +19,16 @@ function TodoApp() {
 
             setTaskList([...tasklist, taskDetails]);
         }
+        
     };
 
-    console.log("tasklist", tasklist);
+
+    /** Inicio de trecho novo */
+    const deletetask = (e, id) => {
+        e.preventDefault();
+        setTaskList(tasklist.filter((t) => t.id !== id));
+    };
+    /** FIM do trecho novo */
 
 
     return (
@@ -43,7 +50,9 @@ function TodoApp() {
 
                         <li className="listitem">
                             {t.value}
-                            <button className="delete">Delete</button>
+                            <button className="completed">Completed</button>
+
+                         <button className="delete" onClick={(e) => deletetask(e, t.id)}>Delete</button>  
                         </li>
                     ))}
                 </ul>
