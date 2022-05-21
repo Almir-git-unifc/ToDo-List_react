@@ -18,22 +18,41 @@ function TodoApp() {
             };
 
             setTaskList([...tasklist, taskDetails]);
+            
         }
-        
     };
 
 
-    /** Inicio de trecho novo */
     const deletetask = (e, id) => {
         e.preventDefault();
         setTaskList(tasklist.filter((t) => t.id !== id));
     };
-    /** FIM do trecho novo */
+  
+
+    const taskCompleted = (e, id) => {
+        e.preventDefault();
+        //let's find index of element
+        const element = tasklist.findIndex((elem) => elem.id === id);
+    
+        //copy array into new variable
+        const newTaskList = [...tasklist];
+    
+        //edit our element
+        newTaskList[element] = {
+          ...newTaskList[element],
+          isCompleted: true,
+        };
+    
+        setTaskList(newTaskList);
+        
+      };
 
 
     return (
         <div className="todo">
-            <input
+
+            <div id="inputAll">
+            <input className="inputBox"
                 type="text"
                 name="text"
                 id="text"
@@ -43,16 +62,27 @@ function TodoApp() {
             <button className="add-btn" onClick={AddTask}>
                 Add
             </button>
+
+            </div>
+
             <br />
             {tasklist !== [] ? (
                 <ul>
                     {tasklist.map((t) => (
 
-                        <li className="listitem">
-                            {t.value}
-                            <button className="completed">Completed</button>
 
-                         <button className="delete" onClick={(e) => deletetask(e, t.id)}>Delete</button>  
+                        <li className={t.isCompleted ? "crossText" : "listitem"}>
+                            {t.value}
+                            <button
+                                className="completed"
+                                onClick={(e) => taskCompleted(e, t.id)}
+                            >
+                                Completed
+                            </button>
+
+                            <button className="delete" onClick={(e) => deletetask(e, t.id)}>
+                                Delete
+                            </button>
                         </li>
                     ))}
                 </ul>

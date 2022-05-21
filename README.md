@@ -12,7 +12,8 @@ This is a Front End To Do List. It's Control of tasks To Do, with the functional
 
 --------------------------------------------------------------------------------------
 
-This project was developed previously for Code&Coding , found on youtube with the title """Build a Todo List"""
+This project was developed previously for  CodeBucks, found on youtube with the title """Build a Todo App with React Js | Using React Hooks"""
+However, some customizations were made, such as: fix the position of the input field to centralized, the font has been changed to sans-serif, and change background-image for linear-gradient.
 
 
 &nbsp;
@@ -26,10 +27,10 @@ Msg-linter and comitzen for semantic version and Convencional Commits;  beyond t
  
 &nbsp;
 # How To Use
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-To clone and run this application, you'll need Git, Node.js v14.17 or higher + npm (used version npm@8.10.0) and package uuid (to create IDs) installed on your computer from your command line.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+To clone and run this application, you'll need Git, Node.js v14.17 or higher + npm (used version npm@8.10.0) installed on your computer from your command line.
+
+
 
 
 &nbsp;

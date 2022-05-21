@@ -6,6 +6,7 @@
 .todo .crossText {
   text-decoration: line-through;
   color: red;
+  align-self: center;
 }
 
 .todo input {
@@ -17,17 +18,31 @@
   margin-top: 40px;
   padding: 5px;
   font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+ #inputAll{
+  border: none;
+   /* coloca bordas ao redor do campo entrada e seu botão */
+   /* border: 2px solid white; */
+   display: flex;
+   align-items: center;
+   justify-content: center
+
+}
+
 
 .todo input::placeholder {
   color: black;
   font-size: 1.3rem;
+  
 }
 
 .todo input:focus {
   outline: none;
   border: 2px dotted black;
 }
+
 
 .todo .add-btn {
   padding: 10px;
@@ -62,9 +77,11 @@
   padding-right: 5px;
   margin-left: -100px;
   background-color: rgb(236, 236, 236, 0.6);
-  font-family: "Permanent Marker", cursive;
+  font-family: sans-serif, Helvetica;
+  font-weight:bold;
   color: black;
 }
+
 .todo ul li .delete {
   margin-top: 5px;
   float: right;
