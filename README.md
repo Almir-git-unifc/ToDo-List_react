@@ -34,12 +34,12 @@ To clone and run this application, you'll need Git, Node.js v14.17 or higher + n
 
 &nbsp;
 ## Clone this repository
-### $ `git clone https://github.com/Almir-git-unifc/toDo-Fr-End_XpK_Hooks-react_js.git`
+### $ `git clone https://github.com/Almir-git-unifc/ToDo-List_simple_react-js.git`
 
 
 &nbsp;
 ## Go to repository
-### $ `cd toDo-Fr-End_XpK_Hooks-react_js`
+### $ `cd ToDo-List_simple_react-js-main`
 
 
 &nbsp;
