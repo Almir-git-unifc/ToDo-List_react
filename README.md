@@ -1,6 +1,6 @@
 # simple ToDo-List react_js
 
-This is a Front End To Do List with functionality CRUD.
+This is a Front End To Do List with functionality CRD.
 
 ----------------------------------------------------------------------------------------------
 
