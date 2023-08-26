@@ -1,6 +1,6 @@
-# simpleToDoList-react_js
+# simple ToDo-List react_js
 
-This is a Front End To Do List. It's Control of tasks To Do, with the functionality simple, like this, C - Create tasks (ADD), D - Delete tasks from the list,  and check or uncheck the  completed task status (Checked)
+This is a Front End To Do List with functionality CRUD.
 
 ----------------------------------------------------------------------------------------------
 
@@ -10,6 +10,8 @@ This is a Front End To Do List. It's Control of tasks To Do, with the functional
 ![To Do List](https://github.com/Almir-git-unifc/ToDo-List_simple_react-js/blob/main/screen-todo.png)
 
 --------------------------------------------------------------------------------------
+
+This is a Front End To Do List. It's Control of tasks To Do, with the functionality simple, like this, C - Create tasks (ADD), D - Delete tasks from the list,  and check or uncheck the  completed task status (Checked)
 
 This project was developed previously for  CodeBucks, found on youtube with the title """Build a Todo App with React Js | Using React Hooks"""
 However, some customizations were made, such as: fix the position of the input field to centralized, the font has been changed to sans-serif, and change background-image for linear-gradient.
