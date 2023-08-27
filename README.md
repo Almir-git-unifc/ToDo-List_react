@@ -1,5 +1,5 @@
-Todo CRUD Application that data in useState
-===========================================
+Todo Application with data in useState
+======================================
 This is a CRUD Application To-Do without persistence that using Node.js, React, JS.
 
 ---------------------------------------------------------------------------------------------------------
@@ -24,20 +24,23 @@ This is a CRUD Application To-Do without persistence that using Node.js, React, 
 
 
 # Intro <a name = "Intro"></a>
-This project was developed previously for Hora de Codar, found on youtube with the title """PROJETO de React JS para INICIANTES - Faça uma To Do List do zero!"""
+This is a Front End To Do List. It's Control of tasks To Do, with the functionality simple, like this, C - Create tasks (ADD), D - Delete tasks from the list,  and check or uncheck the  completed task status (Checked)
+
+This project was developed previously for  CodeBucks, found on youtube with the title """Build a Todo App with React Js | Using React Hooks"""
+However, some customizations were made, such as: fix the position of the input field to centralized, the font has been changed to sans-serif, and change background-image for linear-gradient.
 
 
 
 
 # Feature <a name = "Feature"></a>
 - layout responsive
-- Quizz
+- ToDo list
 
 
 
 &nbsp;
 # Technologies <a name = "Technologies"></a>
-In Hora de Codar this project was developed with VITE using javascript language using technology using Reacj.js
+In youtube's video this project was developed with javascript language using technology: React_JS.
 
 However, in my devepoment used:
 Msg-linter and comitzen for semantic version and Convencional Commits;  beyond the VS_Code with snippets.
@@ -53,39 +56,34 @@ Msg-linter and comitzen for semantic version and Convencional Commits;  beyond t
 &nbsp;
 # How-To-Use <a name = "How-To-Use"></a>
 
-To clone and run this application. You'll need Git, Node.js v18.16.0 or higher + npm (used version 9.8.1) + VITE v4.4.9; all installed on your computer from your command line:
+To clone and run this application, you'll need Git, Node.js v14.17 or higher + npm (used version npm@8.10.0) installed on your computer from your command line:
 
 ```
 &nbsp;
-## Clone this repository or download zip folder
-### $ `https://github.com/Almir-git-unifc/Control_crud-app_vite_react-js_memory.git`
+## Clone this repository
+### $ `git clone https://github.com/Almir-git-unifc/ToDo-List_simple_react-js.git`
 
 
 &nbsp;
-## Install project vite
-### $ `npm create vite@latest`
+## Go to repository
+### $ `cd ToDo-List_simple_react-js-main`
 
 
 &nbsp;
-## choose name project, framework and variant
-### $ `choose  (your project named)   vite-project `
-### $ `(framework)       React`
-### $ `(variant)         JavaScript`
-
-### $ `Copy content project, was download of this Github repository, inside folder vite-project created before`
+## Install dependencies
+### $ `npm install`
 
 
 &nbsp;
 ## Run locally the app
-### $ `cd folder-name-project (vite-project)`
-### $ `npm install`
-### $ `npm run dev`
-#### $ `use the Local link provided by VITE to access the server`
-```
+### $ `npm start`
 
-&nbsp;
-## Want to see the app working
-- Then see the app running on [this website](https://almir-git-unifc.github.io/Control_crud-app_vite_react-js_memory/)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+```
 
 &nbsp;
 # Author <a name = "Author"></a>
@@ -100,9 +98,6 @@ To clone and run this application. You'll need Git, Node.js v18.16.0 or higher +
 
 MIT
 
-
-&nbsp;
-## Enjoyed!
 
 <!-- 
 Instrucoes para readme.md
