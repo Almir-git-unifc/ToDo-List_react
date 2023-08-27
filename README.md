@@ -1,60 +1,113 @@
-# simple ToDo-List react_js
+Todo CRUD Application that data in useState
+===========================================
+This is a CRUD Application To-Do without persistence that using Node.js, React, JS.
 
-This is a Front End To Do List with functionality CRD.
-
-----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 
 
-# Demo
+![To Do List](https://github.com/Almir-git-unifc/Control_crud-app_vite_react-js_memory/blob/main/screen-todo.png)
 
-![To Do List](https://github.com/Almir-git-unifc/ToDo-List_simple_react-js/blob/main/screen-todo.png)
 
 --------------------------------------------------------------------------------------
 
-This is a Front End To Do List. It's Control of tasks To Do, with the functionality simple, like this, C - Create tasks (ADD), D - Delete tasks from the list,  and check or uncheck the  completed task status (Checked)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+- [Intro](#Intro)
+- [Feature](#Feature)
+- [Technologies](#Technologies)
+- [How To Use](#How-To-Use)
+- [Author](#Author)
+- [License](#License)
 
-This project was developed previously for  CodeBucks, found on youtube with the title """Build a Todo App with React Js | Using React Hooks"""
-However, some customizations were made, such as: fix the position of the input field to centralized, the font has been changed to sans-serif, and change background-image for linear-gradient.
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+# Intro <a name = "Intro"></a>
+This project was developed previously for Hora de Codar, found on youtube with the title """PROJETO de React JS para INICIANTES - Faça uma To Do List do zero!"""
+
+
+
+
+# Feature <a name = "Feature"></a>
+- layout responsive
+- Quizz
+
 
 
 &nbsp;
-# Technologies
-In youtube's video this project was developed with javascript language using technology: React_JS
+# Technologies <a name = "Technologies"></a>
+In Hora de Codar this project was developed with VITE using javascript language using technology using Reacj.js
 
 However, in my devepoment used:
-Msg-linter and comitzen for semantic version and Convencional Commits;  beyond the VS_Code with snippets. 
+Msg-linter and comitzen for semantic version and Convencional Commits;  beyond the VS_Code with snippets.
+
+
+### Built With 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
  
- 
 &nbsp;
-# How To Use
+# How-To-Use <a name = "How-To-Use"></a>
 
-To clone and run this application, you'll need Git, Node.js v14.17 or higher + npm (used version npm@8.10.0) installed on your computer from your command line.
+To clone and run this application. You'll need Git, Node.js v18.16.0 or higher + npm (used version 9.8.1) + VITE v4.4.9; all installed on your computer from your command line:
 
-
-
-
+```
 &nbsp;
-## Clone this repository
-### $ `git clone https://github.com/Almir-git-unifc/ToDo-List_simple_react-js.git`
+## Clone this repository or download zip folder
+### $ `https://github.com/Almir-git-unifc/Control_crud-app_vite_react-js_memory.git`
 
 
 &nbsp;
-## Go to repository
-### $ `cd ToDo-List_simple_react-js-main`
+## Install project vite
+### $ `npm create vite@latest`
 
 
 &nbsp;
-## Install dependencies
-### $ `npm install`
+## choose name project, framework and variant
+### $ `choose  (your project named)   vite-project `
+### $ `(framework)       React`
+### $ `(variant)         JavaScript`
+
+### $ `Copy content project, was download of this Github repository, inside folder vite-project created before`
 
 
 &nbsp;
 ## Run locally the app
-### $ `npm start`
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### $ `cd folder-name-project (vite-project)`
+### $ `npm install`
+### $ `npm run dev`
+#### $ `use the Local link provided by VITE to access the server`
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+&nbsp;
+## Want to see the app working
+- Then see the app running on [this website](https://almir-git-unifc.github.io/Control_crud-app_vite_react-js_memory/)
 
+&nbsp;
+# Author <a name = "Author"></a>
+
+👤 **Almir**
+
+- Github: [@Almir-git-hub](https://github.com/Almir-git-unifc)
+
+
+&nbsp;
+# License <a name = "License"></a>
+
+MIT
+
+
+&nbsp;
+## Enjoyed!
+
+<!-- 
+Instrucoes para readme.md
+
+https://blog.rocketseat.com.br/como-fazer-um-bom-readme/
+
+Use estas badges:  https://ileriayo.github.io/markdown-badges/
+->
