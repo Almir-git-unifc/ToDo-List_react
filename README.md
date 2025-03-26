@@ -1,6 +1,6 @@
 Todo Application with data in useState
 ======================================
-This is a CRUD Application To-Do without persistence that using Node.js, React, JS.
+This is a CRUD To-Do app, without persistence, uses React.js and JavaScript.
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -33,16 +33,22 @@ However, some customizations were made, such as: fix the position of the input f
 
 
 # Feature <a name = "Feature"></a>
-- layout responsive
-- ToDo list
+- Add new tasks to the list.
+- View the list of added tasks.
+- Mark tasks as completed.
+- Delete tasks from the list.
+- Intuitive and responsive user interface.
 
 
 
 &nbsp;
 # Technologies <a name = "Technologies"></a>
-In youtube's video this project was developed with javascript language using technology: React_JS.
+This project was developed using technology:
+- React.js: For building the user interface.
+- JavaScript (ES6+): For application logic.
+- React Hooks UseState: Used for state management
 
-However, in my devepoment used:
+However, in my devepoment used too:
 Msg-linter and comitzen for semantic version and Convencional Commits;  beyond the VS_Code with snippets.
 
 
